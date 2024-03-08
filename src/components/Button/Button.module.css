@@ -1,0 +1,76 @@
+.defaultButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+}
+
+.cancelButton,
+.deleteButton {
+    font-weight: 600;
+    font-size: 16px;
+    width: 170px;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.cancelButton {
+    background-color: #FFFFFF;
+    border: 1px solid #DCDBDB;
+    color: #393737;
+}
+
+.cancelButton:hover {
+    background-color: #F3F3F3;
+}
+
+.cancelButton:focus{
+    background-color: #F2F4F7;
+    box-shadow: 0px 0px 0px 4px #F2F4F7, 0px 1px 2px 0px #1018280D;
+}
+
+.cancelButton:disabled{
+    background-color: #FFFFFF;
+    border: 1px solid #DCDBDB;
+    color: #9D9A9A;
+}
+
+.cancelButton:active{
+    background-color: #ECEAEA;
+    border: 1px solid #DCDBDB;
+    color: #9D9A9A;
+}
+
+.deleteButton {
+    background-color: #C92C39;
+    border: 1px solid #C92C39;
+    color: #FFFFFF;
+}
+
+.deleteButton:hover {
+    background-color: #BE212E;
+}
+
+.deleteButton:focus {
+    background-color: #D52533;
+    border: 1px solid #D52533;
+    box-shadow: 0px 0px 0px 4px #FAC9CD, 0px 1px 2px 0px #1018280D;
+}
+
+.deleteButton:disabled {
+    background-color: #F8A9B0;
+    border: 1px solid #F8A9B0;
+}
+
+.deleteButton:not(:disabled):active {
+    background-color: #A61D28;
+    border: 1px solid #A61D28;
+}
+
